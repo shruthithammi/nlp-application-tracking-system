@@ -200,7 +200,7 @@ The current classifier is a portfolio-scale demonstration trained on a small cur
 
 ## Resume-ready description
 
-**ClearHire AI — NLP Application Tracking & Hiring Transparency**
+**nlp-application-tracking-system — NLP Application Tracking & Hiring Transparency**
 
 - Built a FastAPI + React application that tracks job applications and converts recruiter email signals into structured application-status updates.
 - Developed a five-class NLP classifier using **TF-IDF n-gram features and Logistic Regression**, returning class probabilities and human-readable explanations.
