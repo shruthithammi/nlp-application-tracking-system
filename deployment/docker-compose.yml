@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: clearhire
+      POSTGRES_USER: clearhire
+      POSTGRES_PASSWORD: clearhire
+    ports: ["5432:5432"]
+    volumes: [postgres_data:/var/lib/postgresql/data]
+  backend:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://clearhire:clearhire@db:5432/clearhire
+      SECRET_KEY: change-this-in-production
+      CORS_ORIGINS: http://localhost:5173,http://localhost:8080
+    ports: ["8000:8000"]
+    depends_on: [db]
+volumes:
+  postgres_data:
