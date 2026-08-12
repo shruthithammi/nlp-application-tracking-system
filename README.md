@@ -1,4 +1,4 @@
-# ClearHire AI — NLP Application Tracking & Hiring Transparency
+# nlp-application-tracking-system — NLP Application Tracking & Hiring Transparency
 
 ClearHire is an end-to-end application tracking system for candidates. It records job applications, analyzes recruiter email communication, updates application status, maintains a timeline, and provides a plain-language explanation of the detected next step.
 
