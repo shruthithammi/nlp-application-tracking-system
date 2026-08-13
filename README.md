@@ -1,6 +1,6 @@
 # nlp-application-tracking-system — NLP Application Tracking & Hiring Transparency
 
-ClearHire is an end-to-end application tracking system for candidates. It records job applications, analyzes recruiter email communication, updates application status, maintains a timeline, and provides a plain-language explanation of the detected next step.
+nlp-application-tracking-system is an end-to-end application tracking system for candidates. It records job applications, analyzes recruiter email communication, updates application status, maintains a timeline, and provides a plain-language explanation of the detected next step.
 
 > **Transparency principle:** ClearHire only reports information that has been provided to the system. It does not claim access to a company's private hiring system and does not invent recruiter decisions.
 
